@@ -1,0 +1,10 @@
+Molecule_Name,SMILES
+blind_challenge_001,O=C(Nc1ccc2c(c1)CNC2)c1cccc2cn[nH]c12
+blind_challenge_002,O=C(Nc1ccc2c(c1)CNC2)c1cccn2nccc12
+blind_challenge_003,Cn1ccc2cccc(C(=O)Nc3ccc4c(c3)CNC4)c21
+blind_challenge_004,O=C(Nc1ccc2c(c1)CNC2)c1nccc2cc[nH]c12
+blind_challenge_005,O=C(Nc1ccc2c(c1)CNC2)c1cccc2[nH]ccc12
+blind_challenge_006,O=C(Nc1ccc2c(c1)CNC2)c1cc(Cl)cc2cc[nH]c12
+blind_challenge_007,Cc1ccc(C(=O)Nc2ccc3c(c2)CNC3)c2[nH]ccc12
+blind_challenge_008,O=C(Nc1ccc2c(c1)NCC2)c1cccc2cc[nH]c12
+blind_challenge_009,O=C(Nc1ccc2c(c1)CNC2)c1cccc2cc[nH]c12
