@@ -1,0 +1,47 @@
+# Python / Jupyter / macOS
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# AEV-PLIG trained models (download with: python aev_plig/download_models.py)
+aev_plig/output/trained_models/*
+!aev_plig/output/trained_models/.gitkeep
+# AEV-PLIG runtime files
+aev_plig/data/processed/
+aev_plig/data/*_graphs.pickle
+aev_plig/output/predictions/
+
+# Generated results. Recreated by running the notebook; the executed copy in
+# ZIKV_DockingScoring.html shows every one of them.
+predictions/
+qupkake/
+smina_score/
+AEVplig_score/
+best_poses_pdb/
+*_confs.sdf
+*_docked.sdf
+*_docked.log
+*_flexdocked.sdf
+*_flexdocked.log
+*_flexdocked_flexres.pdb
+*_minimized.sdf
+*_minimized.log
+*.run.json
+*_run_info.json
+*.pse
+build_*.log
+
+# Derived from ZIKV_NS2B-NS3_protease.pdb by the binding-site step
+*_protein.pdb
+*_ligand_*.pdb
+*_ligand_*.sdf
+*_complex.png
+*_site.png
+
+# QupKake ionisation outputs
+*_pH*.sdf
+*_pH*.csv
+
+# MOE databases
+*.mdb
